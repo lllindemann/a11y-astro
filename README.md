@@ -1,16 +1,37 @@
-# Astro Starter Kit: Basics
+# Web A11y Guidelines
+
+Hey there, this page serves as resource for learning and implementing web accessibility (a11y) guidelines. You can find a practical overview of guidelines and implementation for HTML, CSS, JavaScript and PDFs.
+
+This webpage is built using Astro, which is a static site generator. The Front-end is based on React with TypeScript. The CSS-Framework Tailwind is used for Styling. Further Shadcn/ui is used for accessible ui components support.
+
+## Project Setup
+
+1. Install PNM using these [instructions](https://pnpm.io/installation)
+
+- This project uses pnpm as Package Manager, Which is not included in the default installation of Node.js.
+
+2. This project uses pnpm as Package Manager, Which is not included in the default installation of Node.js.
+3. If you don't have a programming software already, download Visual Studio Code.
+4. Make sure you downloaded the a11y-vue project.
+5. Open the project via your programming software.
+6. Open a new terminal and make sure you are in the directory of the project.
+7. Run `pnpm install` to get the dependencies for the included Node packages in the terminal.
 
 ```sh
-npm create astro@latest -- --template basics
+pnpm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+### Compile and Hot-Reload for Development
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+```sh
+pnpm run dev
+```
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### Type-Check, Compile and Minify for Production
+
+```sh
+pnpm build
+```
 
 ## 🚀 Project Structure
 
@@ -36,7 +57,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -49,6 +70,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Used Frameworks & Libaries
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Tailwind (CSS)
+
+The Tailwind [documentation](https://tailwindcss.com/docs) gives a much better overview of all the Tailwind utility classes than me, so check it out.
+The core Theme Configuration is stored within the tailwind.config.js file at the root of the project. The file defines the default theme of the project.
+
+### Shadcn/ui
+
+This project uses the Shadcn UI framework for accessible UI components support. You can find more information and documentation on [Shadcn UI Website](https://ui.shadcn.com/) or GitHub.
