@@ -1,0 +1,23 @@
+id: 1
+title: Set Document Language
+content: Set document language in the <html> document
+code:
+  - <!DOCTYPE html>
+  - <html lang="en">
+  - <body>
+  - ...
+  - </body>
+  - </html>
+subcontent:
+  - id: 2.1
+    title: Mark Foreign Language Elements
+    content: Mark foreign language elements with a lang=\"\" tag
+    code:
+    - <!DOCTYPE html>
+    - <html lang="en">
+    - <body>
+    - <p>The language of this document is English.</p>
+    - <p lang=“es”>Este párrafo está en español.</p>
+    - </body>
+    - </html>
+    examples:

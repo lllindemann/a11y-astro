@@ -1,0 +1,29 @@
+id: 1
+title: Use Semantic HTML
+content: Semantic HTML are HTML elements, which are used for their intended purpose. Semantic elements are elements with a meaning. E.g. use a <button> element for buttons and not <div> element!
+code:
+  - <div>I'm not a semantic Button</div>
+  - <button>Next Page</button>
+subcontent:
+  - id: 1.1
+    title: Use Semantic HTML for Segmentations
+    content: Use semantic HTML tags to segment different areas on the website
+    examples:
+    - use heading and subheading tags (<h1>, <h2>, <h3>, etc.) to make it possible to identify areas of text in order of their importance
+    - specify separate paragraphs within separate <p> tags
+    - specify numbered and unnumbered lists with <ol> and <ul> respectively
+    - use <li> tags for nested listed elements
+    - <header> and <footer> for header and footer areas
+    - place all navigation elements within the <nav> tag
+    - place main page content in the <main> tag
+    - use only one <main> tag per page.
+    - ...
+  - id: 1.2
+    title: Order Semantic HTML Logically
+    content: Order Semantic HTML Tags according to their logical reading position
+    examples:
+    - header <header> and navigation <nav> first
+    - followed by <main> content
+    - followed by <footer>footer
+    - do not skip heading levels (i.e. no <h4> element directly under an <h2> element without an <h3> in between)
+    - ...
