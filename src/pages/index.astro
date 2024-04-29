@@ -4,12 +4,16 @@ import Card from "../components/Card.astro";
 import "@/assets/style/base.css";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/base/Hero.astro";
+import HTML from "@/components/sections/HTML.astro";
+import PDF from "@/components/sections/HTML.astro";
 import Footer from "@/components/base/Footer.astro";
 ---
 
 <Layout title="A11y Guidelines / L5L">
-  <main id="app">
+  <main id="app" class="text-gray-900 dark:text-white">
     <Hero />
+    <HTML />
+    <PDF />
 	<Footer />
   </main>
 </Layout>
