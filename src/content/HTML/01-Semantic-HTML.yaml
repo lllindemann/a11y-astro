@@ -1,4 +1,5 @@
 id: 1
+value: item-h1
 title: Use Semantic HTML
 content: Semantic HTML are HTML elements, which are used for their intended purpose. Semantic elements are elements with a meaning. E.g. use a <button> element for buttons and not <div> element!
 code:
