@@ -20,10 +20,11 @@ export function Section({ accordionItems }: Props) {
     <BaseAccordion type="single" collapsible>
       {
         accordionItems?.map((item, i) => (
-          <AccordionItem value={item.data.value} key={`item-${i.toFixed()}`}>
+          <AccordionItem value={item.data.value} key={`item-${i.toFixed()}`} className="bg-slate-950 p-4 rounded-lg">
             <AccordionTrigger>{item.data.title}</AccordionTrigger>
             <AccordionContent>
               {item.data.content}
+
               {item.data.subcontent?.map((subitem: SubSection) => (
                 <Subsection
                   key={`item-${subitem.id}`}
