@@ -24,9 +24,9 @@ export function Section({ accordionItems }: Props) {
             <AccordionTrigger>{item.data.title}</AccordionTrigger>
             <AccordionContent>
               {item.data.content}
-              {item.data.subcontent?.map((subitem: SubSection, j) => (
+              {item.data.subcontent?.map((subitem: SubSection) => (
                 <Subsection
-                  key={`item-${j.toFixed()}`}
+                  key={`item-${subitem.id}`}
                   title={subitem.title}
                   content={subitem.content}
                   examples={subitem.examples}
