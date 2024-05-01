@@ -1,5 +1,8 @@
 ---
+import  { Section }  from '../base/Section.tsx'
+import { getCollection } from "astro:content";
 
+const htmlGuidelines = await getCollection("HTML");
 ---
 
 <section
@@ -7,6 +10,8 @@
   class="max-w-screen-md mx-auto my-24 text-gray-900 dark:text-white"
 >
   <h2 class="text-4xl mb-4">HTML Guidelines</h2>
+
+  <Section accordionItems={htmlGuidelines}  client:idle />
 
   <h3 class="text-3xl mb-4">Aria Rules</h3>
   <ol class="mb-8 list-decimal pl-4 ml-2">
