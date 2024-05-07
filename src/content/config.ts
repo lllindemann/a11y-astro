@@ -17,8 +17,22 @@ const htmlCollection =  defineCollection({
     }))
   })
 })
- 
+const pdfCollection =  defineCollection({
+  schema: z.object({
+    id: z.number(),
+    title: z.string(),
+    value: z.string(),
+    content: z.string(),
+    subcontent: z.array(z.object({
+      id: z.number(),
+      title: z.string(),
+      content: z.string(),
+    })).optional()
+  })
+})
+
 //Export project collection
 export const collections = {
   'HTML': htmlCollection,
+  'PDF': pdfCollection,
 };
