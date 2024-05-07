@@ -2,13 +2,10 @@ id: 1
 value: item-p1
 title: The Document Properties are Specified Correctly
 content: Make sure the PDF has correct metadata (document title, language declaration)
-code:
 subcontent:
   - id: 1.1
     title: Set the Documents Language
     content: Provide a language declaration of the entire document. Define the language in the document properties. Also define parts of the PDF in other languages ​​correctly.
-    examples:
   - id: 1.2
     title: Set a Meaningful Document Title
     content: Make sure the PDF has a meaningful document title that gives an indication of what content the PDF provides
-    examples:
