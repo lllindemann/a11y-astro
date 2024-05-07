@@ -1,0 +1,10 @@
+id: 5
+value: item-p5
+title: Create Lists with Default Bullet Points (Bullet Points  or Numbering) from the List Templates
+content: Create lists of related items using list elements appropriate for their purposes. Use intended list templates format. If the lists are not correctly formatted with list tags, users using assistive technologies may struggle to navigate from list to list or item to item.
+code:
+subcontent:
+  - id: 6.1
+    title: Do not provide information using bullet points
+    content:  Do not provide any information using bullet points (e.g. +/- in pro and con lists).
+    examples:

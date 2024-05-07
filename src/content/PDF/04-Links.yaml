@@ -1,0 +1,14 @@
+id: 4
+value: item-p4
+title: Provide Descriptive Links
+content: Apply text alternatives to images, graphs,formulas with the Alt entry in PDF document. 
+code:
+subcontent:
+  - id: 4.1
+    title: Connect Link to Meaningful Terms from the Text
+    content: Links should be represented by a Link tag and objects in its sub-tree, consisting of a link object reference (or Link annotation) and one or more text objects. The text object or objects inside the Link tag are used by assistive technologies to provide a name for the link.
+    examples:
+  - id: 4.2
+    title: Use Quickinfos, when needed
+    content: Quickinfos can help users understand documents more easily (especially in forms). Quickinfos are small tooltip windows that display descriptive text when you position the mouse pointer over a command or control. Since many tooltips in a document can quickly make it confusing, they should only be used if additional descriptive elements are really necessary to understand the functionality of an element.
+    examples:

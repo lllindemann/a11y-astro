@@ -1,0 +1,14 @@
+id: 3
+value: item-p3
+title: Provide Alternative Text for Visual Representations such as Images, Graphs, and Tables
+content: Apply text alternatives to images, graphs,formulas with the Alt entry in PDF document. 
+code:
+subcontent:
+  - id: 3.1
+    title: Add alternative text for images, graphics, tables
+    content: Add alternative text for images, graphics, tables and other items that do not translate naturally into text, because such text alternatives provide human-readable text that can be vocalized by text-to-speech technology for the benefit of users with vision disabilities.
+    examples:
+  - id: 3.2
+    title: Mark illustrations and graphics without relevant information as “decorative”.
+    content: You can hide decorative images with the Artifact tag in PDF documents. Decorative images marked using the /Artifact tag are ignored by Assistive Technology. 
+    examples:
