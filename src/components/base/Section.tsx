@@ -11,7 +11,7 @@ import type {
 } from "@/content/typeInterfaces";
 import type { CollectionEntry } from "astro:content";
 interface Props {
-  accordionItems: CollectionEntry<"HTML">[];
+  accordionItems: CollectionEntry<"HTML" | "PDF">[];
 }
 
 export function Section({ accordionItems }: Props) {
