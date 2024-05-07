@@ -1,5 +1,8 @@
 ---
+import  { Section }  from '../base/Section.tsx'
+import { getCollection } from "astro:content";
 
+const pdfGuidelines = await getCollection("PDF");
 ---
 
 <section
@@ -7,6 +10,8 @@
   class="max-w-screen-md mx-auto my-24 text-gray-900 dark:text-white"
 >
   <h2 class="text-4xl mb-4">PDF Guidelines</h2>
+  
+  <Section accordionItems={pdfGuidelines}  client:idle />
 
   <h3 class="text-3xl mb-4">What makes a PDF accessible?</h3>
   <ul class="mb-8 list-disc pl-4 ml-2">
